@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Variables and Methods in Ruby"
-date:       2019-01-16 19:30:31 +0000
+date:       2019-01-16 14:30:32 -0500
 permalink:  variables_and_methods_in_ruby
 ---
 
