@@ -1,0 +1,13 @@
+---
+layout: post
+title:      "Bidniz! - Ruby on Rails Project"
+date:       2019-06-25 03:12:55 +0000
+permalink:  bidniz_-_ruby_on_rails_project
+---
+
+
+For my third project at Flatiron, we had to create a web application using Ruby on Rails. I decided to create a app that allows users to post their businesses that they are looking to put up for sale, kind of like Craigslist but only for businesses. The idea came to me because my dad is part of a WhatsApp groupchat with a bunch of other people that are posting their businesses for sale. When I saw that, I thought "There has to be a better way to view what other people are selling than scrolling through a bunch of chats". From that birthed the idea of "Bidniz!". 
+
+The requirements for the project was to incorporate what we had learned thus far such as associations, authentication, and RESTful routes. For my associations, I had created four main models: User, Business, Comment, and Tag. Users had many businesses and businesses belonged to users. Businesses had many comments and comments belonged to businesses. Users also had many comments and comments belonged to users. One of my biggest challenges was creating a many to many relationship. I eventually landed on the Tag model. I created a many to many relationship between tags and businesses. For authentication, I gave users an option to create user and login with the create credentials or create user using Facebook and login using Facebook. I used the OmniAuth gem for the authentication. I contemplated using the Devise gem but when I was reading through the readme, it said to not use it if I was a beginner. I decided to stick with OmniAuth since that was what had learned from the lesson. I will definitely go back and learn to use the Devise gem. The other issue that I ran into was making sure that the nested routes were setup properly. After some trial and error, I was able to figure out which routes were needed, and which routes to nest.
+
+I'm not going to lie, this project was a tough one. Even though rails makes it easier with all the "magic",  understanding how it works under the hood is important. It will help figure out what is causing errors and help you resolve those issue quickly. I recommend to those that are starting this projects to make sure they have a clear understanding of nested routes and associations. I realized that those were my weak spots that if I had fully understood those two concepts, the process of this project would have been more seamless. No worries though, this project has solidified my understanding Ruby on Rails and I am ready to tackle the next project!
